@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 index.js"
+    "start": "pm2 start index.js",
+    "stop": "pm2 stop index.js"
   },
   "keywords": [],
   "author": "YourS4nty",
